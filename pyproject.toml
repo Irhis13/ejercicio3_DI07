@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "holamundo"
+version = "0.1.0"
+description = "Hola Mundo! con Pyside6"
+authors = ["Rocio Vera"]
+license = "CC0 v1.0 Universal"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pyside6 = "^6.8.2.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
